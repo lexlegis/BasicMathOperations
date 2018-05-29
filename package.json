@@ -1,0 +1,18 @@
+{
+  "name": "basicmathoperations",
+  "version": "1.0.0",
+  "description": "Basic math operations demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec test/**/*.js"
+  },
+  "author": "Aleksandra Cekic",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chai": "^4.1.2",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mocha": "^5.2.0"
+  }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="/css/style.css" rel="stylesheet" />
+        <script src="js/jquery.min.js"></script>
+        <script src="/js/index.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <span id="operand1" class="operand">&nbsp;</span>
+                <span id="operator" class="operator"></span>
+                <span id="operand2" class="operand">&nbsp;</span>
+                <span class="operator">=</span>
+                <input type="text" id="result" class="result"></span>
+            </div>
+            <div>
+                <input id="checkAnswer" type="button" class="button" onclick="checkAnswer()" value="Check Answer" disabled>
+                <input type="button" class="button" onclick="generateProblem()" value="Next Problem">
+                <div id="history"></div>
+            </div>
+            <div id="statistics-container">
+              <div id="statistics-info">
+                <span >Users solve correctly problems with this operation in </span>
+                <span id="statistics-percentage"></span>
+                <span>% of cases.</span>
+              </div>
+            </div>
+        </div>
+    </body>
+</html>

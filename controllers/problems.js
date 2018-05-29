@@ -19,8 +19,7 @@ const Problems = {
 
     // pick operation
     operation = operationArray[Math.floor(Math.random() * 4)];
-    console.log("Operation: " + typeof operation)
-
+    
     secondOperand = Math.round(Math.random() * wholeNumbersRange) * Math.pow(-1, Math.round(Math.random()));
     if(operation === Operation.divide) {
         // make sure no devision by 0
@@ -35,9 +34,6 @@ const Problems = {
     
     problem = new Problem(firstOperand, secondOperand, operation);
     problem.calculateResult();
-
-    // result = eval(firstOperand + operation + "(" + secondOperand + ")");
-    // problemString = operation + " " + firstOperand + " " + secondOperand + " " + result; 
   
     return problem;
   }

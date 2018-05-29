@@ -6,7 +6,6 @@ Problem = function (operand1, operand2, operation) {
 
   return {
     calculateResult: () => {
-      console.log("operation type: " + typeof (operation));
       if (typeof operation == 'function')
         result = operation(operand1, operand2);
       else

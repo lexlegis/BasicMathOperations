@@ -32,10 +32,7 @@ function checkAnswer() {
       console.log("res: " + JSON.stringify(res));
       document.getElementById("statistics-percentage").innerHTML = Math.round(res.percentage);
       document.getElementById("statistics-info").style.display = "block";
-    });
-    // history.push({"problem": problemString, "answer": isAnswerCorrect});
-    // updateHistory();
-    
+    });    
 }
 
 function updateHistory() {

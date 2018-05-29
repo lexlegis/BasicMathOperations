@@ -46,5 +46,5 @@ Application should be up and running, ready for use.
 
 You can run test simply by running
 ```sh
-test mocha
+npm test
 ```
